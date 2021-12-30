@@ -1,0 +1,730 @@
+* {
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    color: #000;
+}
+
+.nav-link {
+    background-color: transparent !important;
+    color: #020442 !important;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.navbar-brand {
+    margin-right: 60px;
+}
+
+.nav {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.nav-item .nav-link {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.d-flex {
+    flex-direction: row-reverse;
+}
+
+.form-control {
+    position: relative;
+    border-radius: 30px;
+}
+
+.search-btn {
+    position: absolute;
+    font-size: 32px;
+    color: dimgray;
+    background-color: #eee;
+    border: 0;
+    outline: none;
+    display: flex;
+    border-radius: 30px;
+    height: 37px;
+    width: 48px;
+    margin-right: 9px;
+    margin-top: 2px;
+}
+
+.search-form {
+    height: 41px;
+}
+
+.profile {
+    position: relative;
+}
+
+.logout-menu {
+    position: absolute;
+    left: -60px !important;
+}
+
+.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.data-head {
+    color: #020544;
+    font-size: 16px;
+    padding: 0px 0 15px;
+    font-weight: 700;
+    border-bottom: 1px solid #EBE8E8;
+    margin-bottom: 25px;
+}
+
+.show-option {
+    margin-bottom: 30px;
+    margin-top: 15px;
+    white-space: nowrap;
+}
+
+.select-option {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.option {
+    padding: 8px 20px;
+    background: white;
+    border: 1px solid #D3D3D3;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.option1 {
+    padding: 8px 12px;
+    background: white;
+    border: 1px solid #D3D3D3;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.date-picker {
+    height: 38px;
+    border: 1px solid #D3D3D3;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 13%;
+}
+
+.date-section {
+    display: inline-flex;
+    align-items: center;
+}
+
+.row>* {
+    padding-right: 5px !important;
+}
+
+.navbar {
+    box-shadow: 0px 4px 4px 0px #aeaeae40;
+}
+
+.masterdata-table {
+    background-color: #ffff;
+    padding: 20px;
+    overflow: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.masterdata-table tr {
+    background: #F5F7FA;
+    padding: 14px;
+    border-radius: 10px !important;
+    border: 0.5px solid #EEEEEE !important;
+    box-shadow: 3px 2px 5px 2px #3c3b3b1a;
+    margin-bottom: 9px !important;
+    max-width: 100%;
+}
+
+.table th {
+    padding: 19px 20px;
+    white-space: nowrap;
+}
+
+.table td {
+    padding: 19px 20px;
+    white-space: nowrap;
+}
+
+.table {
+    overflow-x: scroll;
+    border-spacing: 0 10px;
+    width: 100%;
+    border-collapse: separate;
+    display: block;
+}
+
+.masterdata-table tbody tr:nth-child(odd) {
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.pagination {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.page-link {
+    color: #000;
+}
+
+.pagination .active {
+    background: #020544;
+    border-color: #020544;
+    color: white;
+}
+
+.footer {
+    background-color: #F4F4FB;
+    padding: 20px 24.5px;
+}
+
+.footer p {
+    padding-left: 15px;
+    font-size: 16px;
+    background-color: #F4F4FB;
+}
+
+.react-datepicker__input-container input {
+    height: 39px;
+    border: 1px solid #D3D3D3;
+    border-radius: 4px;
+    width: 150px;
+}
+
+.revenue-reporting,
+.master-data-container,
+.agent-container,
+.Invoice-container,
+.product-container,
+.admin-container,
+.billing-container {
+    padding-top: 30px !important;
+    background-color: #F4F4FB;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.revenue-reporting .masterdata-table .table,
+.agent-container .masterdata-table .table,
+.Invoice-container .masterdata-table .table,
+.product-container .masterdata-table .table,
+.admin-container .masterdata-table .table {
+    display: table;
+}
+
+.btn button {
+    font-weight: 600;
+    min-height: 44px;
+    margin-left: 15px;
+    color: #fff !important;
+    padding: 11px 25px;
+    border-radius: 26px;
+    outline: none !important;
+    background-color: #5BC390;
+    border: none;
+}
+
+.data-head .btn img {
+    padding-left: 10px;
+}
+
+.agent-text {
+    padding-top: 36px;
+}
+
+.active-status {
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 3.5px 7.5px;
+    background: #77dd7742;
+    color: #77DD77;
+}
+
+.inactive-status {
+    background: #D4323642;
+    color: #D43236;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 3.5px 7.5px;
+}
+
+.box {
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 13px;
+}
+
+.box input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #F0F0F0;
+    border: 0px;
+    min-height: 44px;
+    padding-left: 14px;
+    flex-basis: 60%;
+    max-width: 60%;
+    font-weight: 300;
+}
+
+.lbl {
+    font-size: 14px;
+    font-weight: 300;
+    flex-basis: 40%;
+    max-width: 40%;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.billing-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #F0F0F0;
+    border: 0px;
+    min-height: 44px;
+    padding-left: 14px;
+    flex-basis: 60%;
+    max-width: 100%;
+    font-weight: 300;
+    padding-left: 93px;
+    padding-right: 90px;
+}
+
+.billing-dropdown .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 6.4rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.save-btn {
+    margin: 45px 0 25px;
+}
+
+.billing-table {
+    padding: 40px 20px 100px;
+    margin-bottom: 30px;
+}
+
+.modal-open .modal.in {
+    display: flex !important;
+}
+
+#myModal {
+    padding-right: 0px !important;
+}
+
+.modal-body {
+    padding: 0px;
+}
+
+.modalhead p {
+    font-size: 15px;
+}
+
+.modalhead,
+.modalfoot {
+    padding: 40px 0;
+}
+
+.modal-content {
+    position: absolute;
+    top: 42px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0px 4px 4px 0px #00000040 !important;
+    border-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.modal-open .modal.in {
+    background: #2e3c56e6;
+}
+
+.modal-dialog .close {
+    opacity: 1;
+    padding: 13px;
+    z-index: 99;
+    position: absolute;
+    right: -15px;
+    top: -115px;
+}
+
+.modal-dialog {
+    width: 1366px;
+    margin: 40px auto;
+    height: 90%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav-pills {
+    border-bottom: 1px solid #F1F1F1;
+    padding-left: 25px;
+    margin-top: -32px;
+}
+
+.nav-pills a {
+    position: relative;
+    background: none !important;
+    padding: 0px !important;
+    color: #605F5F;
+    font-size: 11px;
+    text-transform: uppercase;
+    display: flex !important;
+    align-items: center;
+}
+
+.nav-pills a span {
+    padding: 25px 0px !important;
+    position: relative;
+}
+
+.nav-pills a img {
+    margin: 0 10px;
+}
+
+.nav-pills .active a {
+    color: #020544 !important;
+}
+
+.nav-pills .active span:after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    width: 100%;
+    left: 0;
+    height: 5px;
+    background-position: center;
+}
+
+.modal-body .tab-content {
+    padding: 30px 40px;
+}
+
+.tab-content h3 {
+    text-align: left;
+    color: #020544;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.six {
+    font-weight: 600;
+}
+
+.rowcnt {
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 13px;
+}
+
+.lbl {
+    font-size: 14px;
+    font-weight: 300;
+    flex-basis: 40%;
+    max-width: 40%;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.tabshow .inpt {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #F0F0F0;
+    border: 0px;
+    min-height: 44px;
+    padding-left: 14px;
+    flex-basis: 60%;
+    max-width: 60%;
+    font-weight: 300;
+}
+
+textarea.inpt {
+    min-height: 150px !important;
+}
+
+.green {
+    background-color: #5BC390;
+}
+
+.color-green {
+    color: #5BC390;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.btn img {
+    padding-left: 9px;
+    margin-top: -2px;
+}
+
+.tabshow .btn {
+    font-weight: 600;
+    min-height: 44px;
+    margin-left: 15px;
+    color: #fff !important;
+    padding: 11px 25px;
+    border-radius: 26px;
+    outline: none !important;
+}
+
+.btn a {
+    color: #fff;
+    text-decoration: none !important;
+    font-weight: 600;
+}
+
+.footbtn {
+    margin: 45px 0 25px;
+}
+
+.footatb {
+    margin-top: 35px;
+    border-top: 1px dashed #D3D3D3;
+    padding: 20px 0 30px;
+    font-size: 18px;
+}
+
+.footatb .img {
+    border-radius: 50%;
+    background: #F0F0F0;
+    padding: 7px 10px;
+}
+
+.tabshow thead {
+    background: #020544;
+}
+
+.tabshow table {
+    width: 100%;
+}
+
+.tabshow th {
+    color: #fff;
+    font-weight: 400;
+}
+
+.tabshow td {
+    font-weight: 300;
+}
+
+.tabshow tbody tr:nth-child(odd) {
+    background: #F0F0F0;
+}
+
+.tabshow td,
+.tabshow th {
+    padding: 15px 20px;
+    text-align: left;
+}
+
+.tabshow tfoot td {
+    padding: 10px 20px;
+}
+
+.tabshow tfoot tr:last-child td {
+    padding: 0 15px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.billcnt .rowcnt {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 35px;
+}
+
+.billcnt .lbl {
+    padding: 0 0 15px;
+}
+
+.billcnt .inpt p {
+    margin-bottom: 3px;
+}
+
+.billcnt .inpt {
+    line-height: 25px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    flex-basis: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+.billcnt .inpt p:last-child {
+    margin-bottom: 0px;
+}
+
+.billtab {
+    width: 60%;
+}
+
+.billcnt {
+    width: 40%;
+    padding-left: 30px;
+}
+
+.tabrow .col-md-6 {
+    background: #D4D6FC;
+    padding: 15px 20px;
+    font-size: 18px;
+    width: 49%;
+    margin-right: 1%;
+    margin-left: 0;
+}
+
+.tabrow .col-md-6:last-child {
+    margin-left: 1%;
+    margin-right: 0;
+}
+
+.tabrow .col-md-6 span {
+    width: 50%;
+    display: block;
+    float: left;
+}
+
+.upi {
+    padding-right: 38px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+.txtlt {
+    width: 15%;
+    padding-right: 0;
+}
+
+.txtrt {
+    width: 85%;
+    padding-left: 0;
+}
+
+.txtrt #datepicker {
+    width: 95px;
+    padding: 10px;
+}
+
+.status {
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 3.5px 7.5px;
+}
+
+.status.active {
+    background: #77dd7742;
+    color: #77DD77;
+}
+
+.status.inactive {
+    background: #D4323642;
+    color: #D43236;
+}
+
+.agentcnt .row {
+    display: flex;
+    align-items: flex-end;
+}
+
+.agentcnt {
+    margin-top: -15px;
+}
+
+.agentmodal .modal-dialog {
+    width: 64%;
+}
+
+.agentmodal .modal-body {
+    padding: 40px;
+}
+
+.heading {
+    font-size: 20px;
+    color: #020544;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.agentform .button-row {
+    margin: 70px 0 20px;
+}
+
+.agentform .rowcnt {
+    margin-bottom: 20px
+}
+
+.agentform .inpt {
+    flex-basis: 75%;
+    max-width: 75%;
+    outline: none;
+}
+
+.agentform .lbl {
+    flex-basis: 25%;
+    max-width: 25%;
+    padding-right: 15px;
+}
+
+#product {
+    width: 75%;
+    margin: auto;
+}
+
+.billingcnt {
+    padding: 40px 20px 100px;
+    margin-bottom: 30px;
+}
+
+.mastertable {
+    overflow: hidden;
+}
+
+.mastertable table {
+    display: block;
+}
+
+.modal-body {
+    position: initial !important;
+}

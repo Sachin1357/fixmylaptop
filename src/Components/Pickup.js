@@ -63,7 +63,7 @@ return(
 	</span>
 	{
 		index ?
-	<button onClick={()=>this.deleteControl(index)}><strong>X</strong></button>
+	<button onClick={()=>this.deleteControl(index)}><img src="./Images/trash-bin2.png"/></button>
 	: null
 	}
 	</div> 

@@ -40,44 +40,6 @@ const AgentDetails = () => {
                     </div>
                 </div>
 
-                 {/* Modal 
-                <div className="modal fade" id="myModal" role="dialog">
-                    <div className="modal-dialog">
-
-                        Modal content
-                        <div className="modal-content text-center">
-
-                            <button type="button" className="close" data-dismiss="modal"><img src="img/cross.png" /></button>
-                            <div className="modal-body">
-                                <div className="modalhead">
-                                    <p>Enter the verification code we just sent on client’s  mobile.</p>
-                                </div>
-                                <form id="verifier" method="post">
-                                    <div className="">
-                                        <div id="otp_message"></div>
-
-                                        <div className="divouter">
-                                            <div id="divInner">
-                                                <input id="partitioned" name="otp" type="text" className="number" maxlength="4" />
-                                            </div>
-                                        </div>
-                                        <div className="modalfoot">
-                                            <p className="text-center">Please wait for one minute to receive OTP<br />
-                                                Didn't receive a code! <span className="yellow"><a id="resend_btn" href="#">Resend</a></span></p>
-                                        </div>
-                                        <div className="button-row">
-                                            <button name="submit" type="submit" className="btn green"  ><a href="agent-case-open.html">VERIFY <img src="img/right-arrow.png" /></a></button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-
-                    </div>
-                </div> */}
-
-           
-
             <Footer />
         </div>
     )

@@ -15,13 +15,13 @@ class Admin extends React.Component {
                             <h5>Personal Details</h5>
                             <hr></hr>
                             <div class="col-md-4">
-                            <input class="col-md-12" type='text' placeholder="Your Name"></input>
+                            <input class="col-md-12" type='text' placeholder="Your Name" required></input>
                             </div>
                             <div class="col-md-4">
-                            <input class="col-md-12" type='email' placeholder="Email"></input>
+                            <input class="col-md-12" type='email' placeholder="Email" required></input>
                             </div>
                             <div class="col-md-4">
-                            <input class="col-md-12" type='phone' placeholder="Phone No."></input>
+                            <input class="col-md-12" type='phone' placeholder="Phone No." required></input>
                             </div>
                             <h5>Address</h5>
                             <hr></hr>

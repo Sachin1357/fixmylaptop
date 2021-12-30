@@ -202,7 +202,7 @@ border-bottom-left-radius: 0px !important;
     margin-left: 15px;
   }
 }
-@media (min-width:280px){
+@media (min-width:280px) and (max-width:460px){
 .btn{
   display: initial !important;}
 }
@@ -329,12 +329,23 @@ font-size: 16px;
     border-radius: 26px;outline:none !important;
     background-color: lightblue;
     }
-    .btno:enabled{
+   .add-btn .btno:enabled{
       min-height:44px;margin-left: 15px;
     color: #fff !important;
-    padding: 11px 25px;
+    padding: 11px 7% 10px;
     border-radius: 26px;outline:none !important;
     background-color: #2871A6;
+    }
+    .btn-primary{
+      border-color: transparent;
+    }
+   .green.btn-primary:hover{
+      background-color:#5BC390 ;
+      border-color: transparent;
+    }
+    .blue.btn-primary:hover{
+      background-color:#2871A6 ;
+      border-color: transparent;
     }
 .btno  a{color:#fff;text-decoration:none;}
 	 .btno img{padding-left:9px;margin-top:-2px;}
@@ -361,11 +372,12 @@ font-size: 16px;
 	.modal-body{padding: 50px;}
 	.modalhead p{font-size:15px;}
 	.modalhead,.modalfoot{padding:40px 0;}
-	.modal-content{    width: 96%; margin: auto;box-shadow: 0px 4px 4px 0px #00000040 !important;border-radius: 20px;}
+	.modal-content{    width: 600px; height: 540px; border-radius: 20px; margin-left: -70px;}
 	.modal-open .modal{background: #2e3c56e6;}
 	.modal-dialog .close{opacity: 1;padding:13px;    z-index: 99;
     position: absolute;
-    right: 0;}
+    right: 0;
+  top: 0;}
 	.divouter {
     width: 213px;
     overflow: hidden;
@@ -467,7 +479,41 @@ select::-ms-expand {
   /* End css of details page */
 
 
-    /* Start css of Admin page */
-    
-
-    /* End css of Admin page */
+    /* Start css of popup  */
+    .popup-p {
+      text-align: center;
+  }
+  
+  .popup-p2{
+    padding: 50px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .resend{
+    font-weight: bold;
+    padding-left: 5px;
+  }
+  .resend a{
+    color: #5BC390 !important;
+  }
+  .popup-btn{
+    height: 44px;
+    width: 118px;
+    background-color: #5BC390;
+    color: white;
+    border-radius: 26px;
+    border: none;
+  }
+  .otpno{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+  }
+  .otpno input{
+    width: 3em !important;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+    /* End css of popup */

@@ -9,6 +9,7 @@ import Cancel from './Components/Cancel'
 import Activecase from './Components/Activecase';
 import Admin from './Components/Admin';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import Popup from './Components/Popup';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Route exact path="/cancel" element={<Cancel />} />
       <Route exact path="/activecase" element={<Activecase />} />
       <Route exact path ="/admin" element={<Admin />} />
+      <Route exact path ="/popup" element={<Popup />} />
       </Routes>
     </div>
     </BrowserRouter>
