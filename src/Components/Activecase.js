@@ -20,7 +20,7 @@ const Activecase = () => {
 
 				<div className="tab-content clearfix">
 					<div className="tab-pane active" id="2a">
-					<Link to="/agentdetails">
+					<Link to="/popup">
 							<div className="tab-cnt">
 								<div className="row">
 									<div className="col-md-6 col-xs-6"><span className="txttd"><img src="./newcal.png" width="18px" height="20px" /> 26-05-2021</span></div>
