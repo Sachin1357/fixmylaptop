@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fixmylaptop/static/css/main.6bc22d87.css",
+    "main.js": "/fixmylaptop/static/js/main.a112394a.js",
+    "static/js/787.6136e054.chunk.js": "/fixmylaptop/static/js/787.6136e054.chunk.js",
+    "index.html": "/fixmylaptop/index.html",
+    "main.6bc22d87.css.map": "/fixmylaptop/static/css/main.6bc22d87.css.map",
+    "main.a112394a.js.map": "/fixmylaptop/static/js/main.a112394a.js.map",
+    "787.6136e054.chunk.js.map": "/fixmylaptop/static/js/787.6136e054.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bc22d87.css",
+    "static/js/main.a112394a.js"
+  ]
+}
